@@ -1,0 +1,39 @@
+
+
+
+.container-fluid{
+
+    height:120vh;
+    width: 100%;
+    padding-top: 50px;   
+    background-image: url('./background.jpg') ;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tmer_heading{
+    font-size: 40px;
+}
+.heading{
+    float: right;
+    margin: 300px;
+    text-align: center
+}
+
+@media only screen and (max-width: 600px)  {
+       tmer_heading{
+        font: 25px;
+       }
+
+       .heading{
+        float: right;
+        margin: 300px 0px;        
+          
+      }
+
+     
+
+   }
+  
+
